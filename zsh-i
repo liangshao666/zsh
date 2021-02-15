@@ -32,7 +32,7 @@ tmoe_zsh_02_env() {
 	TMOE_ZSH_GIT_DIR="${TMOE_ZSH_DIR}/git"
 	TMOE_ZSH_TOOL_DIR="${TMOE_ZSH_GIT_DIR}/tools"
 	case ${ZSH_I_URL_02} in
-	"") TMOE_ZSH_SCRIPT_URL='https://gitee.com/mo2/zsh/raw/master/zsh.sh' ;;
+	"") TMOE_ZSH_SCRIPT_URL='https://gitee.com/liangshao666/zsh/raw/master/zsh.sh' ;;
 	*) TMOE_ZSH_SCRIPT_URL="${ZSH_I_URL_02}" ;;
 	esac
 }
